@@ -1,0 +1,169 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.loading,
+.errorState {
+  color: #a0a5b5;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.header {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.backBtn {
+  background: transparent;
+  border: 1px solid #4a5568;
+  color: #e2e8f0;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: all 0.2s;
+}
+
+.backBtn:hover {
+  background: #2d3748;
+  color: #fff;
+}
+
+.quizTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 8px 0 0 0;
+}
+
+.quizDescription {
+  color: #a0aec0;
+  font-size: 16px;
+  margin: 0;
+}
+
+.metaBadge {
+  align-self: flex-start;
+  background: #4a5568;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.questionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.questionCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.questionNumber {
+  font-weight: bold;
+  color: #718096;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.typeBadge {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.typeBadge.boolean {
+  background: #ebf8ff;
+  color: #2b6cb0;
+}
+.typeBadge.input {
+  background: #fefcbf;
+  color: #744210;
+}
+.typeBadge.checkbox {
+  background: #faf5ff;
+  color: #553c9a;
+}
+
+.questionText {
+  font-size: 20px;
+  color: #1a202c;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+}
+
+/* Опції відповідей */
+.optionsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.readOnlyOption {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f7fafc;
+}
+
+.readOnlyOption.correct {
+  border-color: #48bb78;
+  background: #f0fff4;
+}
+
+.optionText {
+  color: #2d3748;
+  font-size: 15px;
+  flex: 1;
+}
+
+.correctLabel {
+  color: #38a169;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nestedLabel {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.correctInputPreview {
+  padding: 12px 16px;
+  background: #f0fff4;
+  border: 1px solid #48bb78;
+  border-radius: 8px;
+  color: #276749;
+  font-weight: 600;
+  font-size: 15px;
+}

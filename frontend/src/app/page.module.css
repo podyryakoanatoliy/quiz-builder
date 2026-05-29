@@ -1,0 +1,48 @@
+.container {
+  min-height: calc(100vh - 80px); /* 80px - приблизна висота вашого навбару */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../public/Quiz_QR-code-400x400.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+}
+
+.heroContent h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.heroContent p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btnPrimary {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btnSecondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
