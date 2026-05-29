@@ -15,11 +15,11 @@ model Quiz {
 }
 
 model Question {
-  id            String @id @default(uuid())
-  type          String
-  question      String
-  correctAnswer String
-  options       String 
-  quizId        String
-  quiz          Quiz   @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  id             String @id @default(uuid())
+  type           String 
+  question       String 
+  options        String 
+  correctAnswers String 
+  quizId         String
+  quiz           Quiz   @relation(fields: [quizId], references: [id], onDelete: Cascade)
 }
